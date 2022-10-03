@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+     integrity="sha384-
+    wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous
+    ">
+    <title>exemplo Bootstrap</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="https://shopee.com.br/">Bootstrap Navbar</a>
+            <button class="navbar-toggler"  type="button" data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"ariacontrols="navbarSupportedContent" aria-expanded="false"
+            aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+            <div class="collapse navbar-collapse" 
+            id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-link">
+                        <a class="nav-link active" aria-current="page" href="https://shopee.com.br/">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://shopee.com.br/">sobre</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdowntoggle" href="https://shopee.com.br/" id="navbarDropdown" role="button"
+                        data-bs-toggle="dropdown" aria-expanded="false">
+                        Outros
+                        </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="https://shopee.com.br/">Projeto</a></li>
+                    <li><a class="dropdown-item" href="https://shopee.com.br/">Contato</a></li>
+                    <li>
+                        <hr class="dropdown-divider">
+                    </li>
+                    <li><a class="dropdownitem" href="https://shopee.com.br/">Qualquer coisa</a></li>
+                </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link disabled" href="https://shopee.com.br/" tabindex="-1" ariadisabled="true">Desabilitado</a>
+                </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <header class="p-5 bg-warning">
+        <div class="container-fluid py-5">
+            <h1 class="display-5 fw-bold">Bem-vindo ao meu Website</h1>
+            <p class="col-md-8 fs4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione eligendi vitae atque nesciunt Ducimus veritatis, praesentium quo delectus u t numquam.</p>
+            <a class="btn btn-primary btn-lg" href="https://shopee.com.br/" role="button">Aprenda Mais</a>
+        </div>
+    </header>
+    <!--alinhamento e transformação-->
+    <section class="container">
+        <p class="text-start textlowercase">Texto alinhado à esquerda da área de visualização.</p>
+        <p class="text-center textuppercase">Texto alinhado centralizado na área de visualização.</p>
+        <p class="text-end">Texto alinhado à direta da área de visualização.</p>
+        <p class="tex-nowrap">Texto sem quebra de linha. Lorem ipsum dolor sit amet consectetur, adipisicing e
+       lit.Aliquid perspiciatis sed quia expedita? Id cupiditate dicta magni fugiat nulla v
+       oluptatibus ratione
+        accusantium!
+        </p>
+        <hr>
+    </section>
+    <section class="container">
+        <!--floats-->
+        <div class="float-start">Float no início da área de visualização</div><br>
+        <div class="float-end">float no final da area de visualização</div><br>
+        <div class="float-none">sem float na area de visualizão</div>
+        <div class="clearfix"></div>
+        <hr>
+    </section>
+    <section class="container">
+        <blockquote class="blockquote">
+            <p>A juventude é a época de se estudar a sabedoria; a velhice é a época de a praticar.</p>
+            <figcaption class="blockquote-footer">
+                <cite title="Source Title">Jean-Jacques Rousseau</cite>
+            </figcaption>
+        </blockquote>
+        <hr>
+    </section>
+    <section class="container">
+        <ul class="list-unstyled"></ul>
+        <li>Item um</li>
+        <li>Item dois</li>
+        <li>Item três</li>
+        <li>Item quatro</li>
+        </ul>
+        <ul class="list-inline">
+        <li class="list-inline-item">Item um</li>
+        <li class="list-inline-item">Item dois</li>
+        <li class="list-inline-item">Item três</li><li class="list-inline-item">Item três</li>
+        <li class="list-inline-item">Item quatro</li>
+        </ul>
+        <ol>
+        <li>Item um</li>
+        <li>Item dois</li>
+        <li>Item três</li>
+        <li>Item quatro</li>
+        </ol>
+        <hr>
+    </section>
+    <section class="container">
+        <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+        <br><br>
+        mude de diretorio com o comendo <kbd>cd</kbd>
+        <br><br>
+        para acessar as configurações de edição, precione <kbd><kbd>crtl</kbd>+<kbd></kbd></kbd>
+        <hr>
+    </section>
+    <section>
+        <p class="text-primary">Olá Mundo com a cor do texto: text-primary</p>
+        <p class="text-success">Olá Mundo com a cor do texto: text-success</p>
+        <p class="text-info">Olá Mundo com a cor do texto: text-info</p>
+        <p class="text-warning">Olá Mundo com a cor do texto: text-warning</p>
+        <p class="text-danger">Olá Mundo com a cor do texto: text-danger</p>
+        <p class="text-muted">Olá Mundo com a cor do texto: text-muted</p>
+        <p class="text-black-50">Olá Mundo com a cor do texto: text-black-50</p>
+        <p class="bg-primary">Olá Mundo com a cor de fundo: bg-primary</p>
+        <p class="bg-success">Olá Mundo com a cor de fundo: bg-success</p>
+        <p class="bg-info">Olá Mundo com a cor de fundo: bg-info</p>
+        <p class="bg-warning">Olá Mundo com a cor de fundo: bg-warning</p>
+        <p class="bg-danger">Olá Mundo com a cor de fundo: bg-danger</p>
+        <p class="bg-muted">Olá Mundo com a cor de fundo: bg-muted</p>
+        <p class="text-white bg-dark">Olá Mundo com a cor do texto: textwhite, e a cor do fundo: bg-dark</p>
+        <p class="text-white-50 bg-success">Olá Mundo com a cor do texto: text-white50, e a cor do fundo: bg-success</p>`
+        <hr>
+    </section>
+    <section class="container">
+        <button class="btn btn-outline-secondary">Botão um</button>
+        <a href="#" class="btn btn-outline-secondary" role="button">botão dois</a>
+        <input type="submit" class="btn btn-outline-secondary" value="Enviar">
+        <br><br>
+    </section>
+    <section class="container">
+        
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.m
+    in.js"
+     integrity="sha384-
+    p34f1UUtsS3wqzfto5wAAmdvj+osOnFyQFpp4Ua3gs/ZVWx6oOypYoCJhGGScy+8"
+     crossorigin="anonymous"></script>
+    
+</body>
+</html>
